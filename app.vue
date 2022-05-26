@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Vitesse Nuxt 3',
+  title: 'Blog Maurice Schwarz | Software Engineer',
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/nuxt.png',
