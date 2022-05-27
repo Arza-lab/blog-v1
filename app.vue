@@ -27,6 +27,10 @@ html, body , #__nuxt{
   padding: 0;
 }
 
+html.light {
+  background: #f3f4f6;
+}
+
 html.dark {
   background: #222;
   color: white;
