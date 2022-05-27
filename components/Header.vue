@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <header class="mx-auto px-4 sm:px-6 sticky top-0 z-50 opacity-90 bg-white backdrop-blur backdrop-filter dark:bg-gray-800">
-    <div class="flex justify-between items-center py-6 md:(justify-start space-x-10)">
+  <header class="mx-auto px-4 sticky top-0 z-50 opacity-90 bg-white backdrop-blur backdrop-filter dark:bg-gray-800">
+    <div class="flex justify-between items-center py-6 md:(justify-start)">
       <div class="flex justify-start md:(w-0 flex-1)">
         <a href="/">
           <span class="sr-only">Maurice Schwarz</span>
@@ -12,7 +12,7 @@
         </a>
       </div>
       <div class="flex items-center justify-end">
-        <a class="icon-btn mx-2 dark:text-white" rel="noreferrer" href="https://github.com/Arza-lab" target="_blank" title="GitHub">
+        <a class="icon-btn mx-3 dark:text-white" rel="noreferrer" href="https://github.com/Arza-lab" target="_blank" title="GitHub">
           <div class=" i-carbon-logo-github text-xl " />
         </a>
         <DarkToggle />
