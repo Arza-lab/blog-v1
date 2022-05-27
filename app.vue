@@ -32,7 +32,7 @@ html.light {
 }
 
 html.dark {
-  background: #222;
+  background: #121212;
   color: white;
 }
 </style>
