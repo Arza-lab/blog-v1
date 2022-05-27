@@ -1,6 +1,7 @@
 {
   "private": true,
   "packageManager": "pnpm@7.0.1",
+  "author": "Maurice Schwarz",
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",

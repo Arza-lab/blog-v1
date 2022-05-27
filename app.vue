@@ -1,9 +1,14 @@
 <script setup>
 useHead({
-  title: 'Blog Maurice Schwarz | Software Engineer',
+  title: 'Blog Maurice Schwarz | Web Entwickler',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  charset: 'utf-8',
+  meta: [
+    { name: 'description', content: 'Maurice Schwarz ist Software Entwickler, darauf spezialisiert, außergewöhnliche digitale Erlebnisse zu entwerfen und umzusetzen.' },
+  ],
   link: [
     {
-      rel: 'icon', type: 'image/png', href: '/nuxt.png',
+      rel: 'icon', type: 'image/svg', href: 'logos/M.svg',
     },
   ],
 })
