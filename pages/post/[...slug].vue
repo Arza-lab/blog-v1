@@ -7,7 +7,7 @@ const router = useRouter()
     <ContentDoc />
     <div>
       <button btn text-sm m="3 t8" @click="router.back()">
-        Back
+        cd ..
       </button>
     </div>
   </main>
