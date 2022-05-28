@@ -14,7 +14,7 @@ defineProps({
     </div>
     <NuxtLink
       :to="post._path"
-      class="p-4 col-span-2  transition ease-in-out w-full bg-white  flex flex-col items-left text-left justify-left hover:(text-teal-600) dark:bg-gray-800"
+      class="p-4 col-span-2 transition ease-in-out w-full bg-white  flex flex-col items-left text-left justify-left hover:(text-teal-600) dark:bg-gray-800"
     >
       <h2 class="font-serif text-3xl text-teal-600">
         {{ post.title }}
