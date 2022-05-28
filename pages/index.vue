@@ -17,14 +17,14 @@ definePageMeta({
           {{ data[0].title }}
         </h1>
         <p class="">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          {{ data[0].description }}
         </p>
         <div class="font-normal flex flex-col gap-3">
           <p>
-            03.05.2020
+            {{ data[0].date }}
           </p>
           <p class="">
-            3 min read
+            {{ data[0].timeToRead }}
           </p>
         </div>
         <NuxtLink to="" class="btn">
@@ -34,7 +34,7 @@ definePageMeta({
     </div>
     <Suspense>
       <div class="flex-col flex-col items-center gap-3 p-4 py-20 px-10">
-        <PostCard v-for="post in data" :key="post.title" :post="post" />
+        <PostCard v-for="(post, index) in data" :key="post.title" :post="post" :index="index" />
       </div>
       <template #fallback>
         <div op50 italic>

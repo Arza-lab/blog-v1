@@ -4,11 +4,15 @@ defineProps({
     type: Object,
     required: true,
   },
+  index: {
+    type: Number,
+    required: true,
+  },
 })
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:(grid-cols-3) content-center shadow-sm mb-4 rounded-lg dark:bg-gray-900 bg-transparent">
+  <div v-if="index !== 0" class="grid grid-cols-1 md:(grid-cols-3) content-center shadow-sm mb-4 rounded-lg dark:bg-gray-900 bg-transparent">
     <div class="w-full items-right col-span-1 flex flex-col">
       <img src="https://picsum.photos/370/240" :alt="post.title">
     </div>
