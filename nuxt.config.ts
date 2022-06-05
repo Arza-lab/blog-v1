@@ -22,4 +22,9 @@ export default defineNuxtConfig({
     fallback: 'light',
   },
   telemetry: false,
+  content: {
+    highlight: {
+      theme: 'github-light',
+    },
+  },
 })

@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center" v-motion-fade>
     <div>
       <img src="https://picsum.photos/1920/400" alt="" class="p-0 m-0 object-contain">
     </div>
