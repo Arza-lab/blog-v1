@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col items-center" v-motion-fade>
+  <div v-motion-fade class="flex flex-col items-center">
     <div>
       <img src="https://picsum.photos/1920/400" alt="" class="p-0 m-0 object-contain">
     </div>
@@ -19,17 +19,19 @@ defineProps({
       <p class="">
         {{ post.description }}
       </p>
-      <div class="font-normal flex flex-col gap-3">
-        <p>
-          {{ post.date }}
-        </p>
-        <p class="">
-          {{ post.timeToRead }}
-        </p>
+      <div class="grid grid-cols-12 gap-3">
+        <div class="font-normal flex flex-col col-span-12 md:col-span-6 opacity-75">
+          <p>
+            {{ post.date }}
+          </p>
+          <p class="">
+            {{ post.timeToRead }}
+          </p>
+        </div>
+        <NuxtLink :to="post._path" class="btn col-span-12 md:col-span-6">
+          Mehr erfahren
+        </NuxtLink>
       </div>
-      <NuxtLink :to="post._path" class="btn">
-        Mehr erfahren
-      </NuxtLink>
     </div>
   </div>
 </template>
