@@ -13,3 +13,10 @@ const router = useRouter()
   </main>
 </template>
 
+<style>
+h1 {
+  @apply text-teal-600 text-5xl;
+  font-size: 2.5rem!important;
+  margin-bottom: 2rem;
+}
+</style>
