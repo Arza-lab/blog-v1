@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <div v-if="index !== 0" class="grid grid-cols-12 content-center shadow-sm mb-4 rounded-lg dark:bg-gray-900 bg-transparent">
+  <div v-if="index !== 0" v-motion-slide-visible-once-bottom  class="grid grid-cols-12 content-center shadow-sm mb-4 rounded-lg dark:bg-gray-900 bg-transparent">
     <div class="w-full items-right col-span-12 flex flex-col md:(col-span-4)">
       <img src="https://picsum.photos/370/240" :alt="post.title">
     </div>

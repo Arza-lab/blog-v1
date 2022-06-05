@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/content',
+    '@vueuse/motion/nuxt',
   ],
   experimental: {
     reactivityTransform: true,

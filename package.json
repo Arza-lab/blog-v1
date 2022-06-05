@@ -4,7 +4,7 @@
   "author": "Maurice Schwarz",
   "scripts": {
     "build": "nuxi build",
-    "dev": "nuxi dev",
+    "dev": "nuxi dev --port 3333",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "start": "node .output/server/index.mjs",
@@ -23,5 +23,8 @@
     "nuxt": "^3.0.0-rc.3",
     "pinia": "^2.0.14",
     "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@vueuse/motion": "2.0.0-beta.18"
   }
 }
