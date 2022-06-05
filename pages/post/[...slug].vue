@@ -4,7 +4,7 @@ const router = useRouter()
 
 <template>
   <main>
-    <ContentDoc />
+    <ContentDoc class="prose" />
     <div>
       <button btn text-sm m="3 t8" @click="router.back()">
         cd ..
@@ -13,10 +13,8 @@ const router = useRouter()
   </main>
 </template>
 
-<style>
-h1 {
-  @apply text-teal-600 text-5xl;
-  font-size: 2.5rem!important;
-  margin-bottom: 2rem;
+<style lang="postcss">
+prose h1 {
+  @apply text-teal-600 text-4xl mb-3;
 }
 </style>
