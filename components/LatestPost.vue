@@ -13,7 +13,7 @@ defineProps({
       <img src="https://picsum.photos/1920/400" alt="" class="p-0 m-0 object-contain">
     </div>
     <div class="p-4 gap-3 transition ease-in-out w-2/3  bg-white flex -mt-25 flex-col items-center dark:bg-gray-800">
-      <h1 class="font-serif text-4xl text-teal-600">
+      <h1 class="font-serif text-4xl rainbow-text">
         {{ post.title }}
       </h1>
       <p class="">

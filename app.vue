@@ -35,4 +35,17 @@ html.dark {
   background: #121212;
   color: white;
 }
+.rainbow-text {
+	@apply text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-teal-600 to-teal-700;
+}
+.page-enter-active,
+.page-leave-active {
+	transition: all 0.3s ease-in-out;
+}
+
+.page-enter-from,
+.page-leave-to {
+	opacity: 0;
+	transform: scale(0.99);
+}
 </style>

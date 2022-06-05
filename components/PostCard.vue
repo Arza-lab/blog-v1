@@ -20,7 +20,7 @@ defineProps({
       :to="post._path"
       class="p-4 col-span-12 transition ease-in-out w-full bg-white  flex flex-col items-left text-left justify-left md:(col-span-8) hover:(text-teal-600) dark:bg-gray-800"
     >
-      <h2 class="font-serif text-3xl text-teal-600">
+      <h2 class="font-serif text-3xl rainbow-text">
         {{ post.title }}
       </h2>
       <p class="test-xl">
