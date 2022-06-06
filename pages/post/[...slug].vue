@@ -3,17 +3,17 @@ const router = useRouter()
 </script>
 
 <template>
-  <main>
+  <article>
     <ContentDoc class="prose" />
     <div>
       <button btn text-sm m="3 t8" @click="router.back()">
         cd ..
       </button>
     </div>
-  </main>
+  </article>
 </template>
 
-<style lang="postcss">
+<style>
 prose h1 {
   @apply text-teal-600 text-4xl mb-3;
 }
